@@ -8,7 +8,7 @@ modo_experto: true
 
 # Estado del Sistema: Óptimo
 
-Contenido publicado desde la terminal.
+Contenido publicado desde Google Colab.
 
 - La web lo lee al cargar la página.
 - Los parámetros de estilo vienen de la cabecera YAML.
