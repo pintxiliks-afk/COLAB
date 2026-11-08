@@ -8,7 +8,7 @@ modo_experto: true
 
 # Estado del Sistema: Óptimo
 
-Contenido de ejemplo para probar `agente.html` en local.
+Contenido publicado desde la terminal.
 
 - La web lo lee al cargar la página.
 - Los parámetros de estilo vienen de la cabecera YAML.
