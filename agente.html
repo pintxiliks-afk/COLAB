@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agente</title>
+<style>
+  :root { --agente-fondo: #09090b; --agente-primario: #06b6d4; }
+  body { margin: 0; padding: 2rem 16px; background: var(--agente-fondo); color: var(--agente-primario);
+         font: 16px/1.6 system-ui, sans-serif; }
+  #contenidoMarkdown { max-width: 70ch; margin: 0 auto; }
+  #contenidoMarkdown a { color: inherit; }
+  body.modo-experto #contenidoMarkdown { font-family: ui-monospace, monospace; }
+</style>
+</head>
+<body>
+<main id="contenidoMarkdown">Cargando…</main>
+
+<!-- Librerías (versión fija). Cárgalas ANTES de agente.js. -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
+<script src="agente.js"></script>
+<script>cargarAgente("config_agente.md", "contenidoMarkdown");</script>
+</body>
+</html>
