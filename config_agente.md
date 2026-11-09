@@ -1,8 +1,8 @@
 ---
 titulo: Asistente de Desarrollo M.M.O.
 tema: cyberpunk
-color_primario: '#06b6d4'
-color_fondo: '#09090b'
+color_primario: '#08b6d4'
+color_fondo: '#08090b'
 modo_experto: true
 ---
 
